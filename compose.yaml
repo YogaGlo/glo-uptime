@@ -1,6 +1,6 @@
 services:
   uptime-kuma:
-    image: louislam/uptime-kuma:2
+    image: glo-uptime:latest
     restart: unless-stopped
     volumes:
       - ./data:/app/data
